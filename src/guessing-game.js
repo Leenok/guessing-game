@@ -11,7 +11,7 @@ class GuessingGame {
     }
 
     guess() {
-        this.r = Math.round(this.max+ this.min/2);
+        this.r = Math.round((this.max+ this.min)/2);
         //if(this.r <number){return this.greater()}
         //if(this.r >number){ return this.lower()};
         //if(this.r === number) {return this.r };
